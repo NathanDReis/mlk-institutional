@@ -1,0 +1,24 @@
+@import url('./differentials.css');
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow: hidden auto;
+}
+
+.fadein {
+  animation: fadeIn .1s ease-in-out;
+  animation-timeline: view();
+  animation-range: 0 50%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
