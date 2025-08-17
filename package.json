@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev:ts": "tsc --watch",
-    "dev:css": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+    "dev:css": "npx @tailwindcss/cli -i ./styles/input.css -o ./styles/output.css --watch",
     "dev": "concurrently \"npm run dev:ts\" \"npm run dev:css\""
   },
   "keywords": [],
