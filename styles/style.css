@@ -42,3 +42,18 @@ body {
     transform: scale(1);
   }
 }
+
+.squares div {
+  animation: square .1s ease-in-out;
+  animation-timeline: view();
+  animation-range: 0 50%;
+}
+
+@keyframes square {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
