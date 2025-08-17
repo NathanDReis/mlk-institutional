@@ -1,4 +1,5 @@
 "use strict";
+// Navigation
 const navLinks = document.querySelectorAll('nav ul li a[href^="#"]');
 const sections = document.querySelectorAll('article');
 function removeActiveClasses() {
@@ -32,4 +33,13 @@ function updateActiveNavigation() {
 }
 window.addEventListener('scroll', updateActiveNavigation);
 updateActiveNavigation();
+// Contact
+const now = new Date();
+const hours = now.getHours();
+const minutes = now.getMinutes();
+const time = document.querySelector('#time');
+function format(num) {
+    return num < 10 ? `0${num}` : `${num}`;
+}
+time.innerHTML = `${format(hours)}:${format(minutes)}`;
 //# sourceMappingURL=index.js.map

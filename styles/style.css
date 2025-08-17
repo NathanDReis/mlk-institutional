@@ -1,4 +1,5 @@
 @import url('./differentials.css');
+@import url('./scroll.css');
 
 * {
   scroll-behavior: smooth;
