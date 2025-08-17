@@ -2,6 +2,7 @@
 // Navigation
 const navLinks = document.querySelectorAll('nav ul li a[href^="#"]');
 const sections = document.querySelectorAll('article');
+const buttonMenu = document.querySelector('#button-menu');
 function removeActiveClasses() {
     navLinks.forEach(link => {
         link.classList.remove('text-blue-500', 'dark:text-blue-500');
@@ -33,6 +34,13 @@ function updateActiveNavigation() {
 }
 window.addEventListener('scroll', updateActiveNavigation);
 updateActiveNavigation();
+navLinks.forEach((link) => {
+    link.onclick = () => {
+        if (window.innerWidth > 768)
+            return;
+        buttonMenu.click();
+    };
+});
 // Contact
 const now = new Date();
 const hours = now.getHours();

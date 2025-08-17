@@ -1674,6 +1674,9 @@
   .w-64 {
     width: calc(var(--spacing) * 64);
   }
+  .w-auto {
+    width: auto;
+  }
   .w-dvw {
     width: 100dvw;
   }
@@ -2980,6 +2983,11 @@
   .md\:w-auto {
     @media (width >= 48rem) {
       width: auto;
+    }
+  }
+  .md\:w-dvw {
+    @media (width >= 48rem) {
+      width: 100dvw;
     }
   }
   .md\:flex-row {

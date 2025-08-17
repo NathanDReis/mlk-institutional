@@ -16,7 +16,7 @@ const items = [
     },
 ];
 const options = {
-    defaultPosition: 1,
+    defaultPosition: 2,
     interval: 5000,
 };
 const instanceOptions = {
