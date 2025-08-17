@@ -37,5 +37,16 @@ const Carousel = (window as any).Carousel || (window as any).Flowbite?.Carousel;
 
 if (carouselElement && Carousel) {
     const carousel = new Carousel(carouselElement, items, options, instanceOptions);
-    carousel.cycle();
+
+    const $prevButton = document.getElementById('data-carousel-prev')!;
+    const $nextButton = document.getElementById('data-carousel-next')!;
+
+    $prevButton.onclick = () => {
+        console.log("prev")
+        carousel.prev();
+    };
+
+    $nextButton.addEventListener('click', () => {
+        carousel.next();
+    });
 }

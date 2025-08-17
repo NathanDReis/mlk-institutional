@@ -34,6 +34,14 @@ const instanceOptions = {
 const Carousel = window.Carousel || ((_a = window.Flowbite) === null || _a === void 0 ? void 0 : _a.Carousel);
 if (carouselElement && Carousel) {
     const carousel = new Carousel(carouselElement, items, options, instanceOptions);
-    carousel.cycle();
+    const $prevButton = document.getElementById('data-carousel-prev');
+    const $nextButton = document.getElementById('data-carousel-next');
+    $prevButton.onclick = () => {
+        console.log("prev");
+        carousel.prev();
+    };
+    $nextButton.addEventListener('click', () => {
+        carousel.next();
+    });
 }
 //# sourceMappingURL=carousel-home.js.map
