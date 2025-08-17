@@ -38,8 +38,10 @@ const now = new Date();
 const hours = now.getHours();
 const minutes = now.getMinutes();
 const time = document.querySelector('#time');
+const time2 = document.querySelector('#time2');
 function format(num) {
     return num < 10 ? `0${num}` : `${num}`;
 }
 time.innerHTML = `${format(hours)}:${format(minutes)}`;
+time2.innerHTML = `${format(hours)}:${format(minutes)}`;
 //# sourceMappingURL=index.js.map

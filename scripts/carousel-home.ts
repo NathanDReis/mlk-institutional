@@ -42,11 +42,10 @@ if (carouselElement && Carousel) {
     const $nextButton = document.getElementById('data-carousel-next')!;
 
     $prevButton.onclick = () => {
-        console.log("prev")
         carousel.prev();
     };
 
-    $nextButton.addEventListener('click', () => {
+    $nextButton.onclick = () => {
         carousel.next();
-    });
+    };
 }
