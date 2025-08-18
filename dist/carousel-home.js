@@ -14,9 +14,13 @@ const items = [
         position: 2,
         el: document.getElementById('carousel-item-3'),
     },
+    {
+        position: 3,
+        el: document.getElementById('carousel-item-4'),
+    },
 ];
 const options = {
-    defaultPosition: 2,
+    defaultPosition: 0,
     interval: 5000,
 };
 const instanceOptions = {
