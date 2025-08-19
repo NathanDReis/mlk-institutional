@@ -2,7 +2,7 @@
 
 const navLinks = document.querySelectorAll('nav ul li a[href^="#"]');
 const sections = document.querySelectorAll('article');
-const buttonMenu = document.querySelector('#button-menu');
+const buttonMenu: any = document.querySelector('#button-menu');
 
 function removeActiveClasses(): void {
     navLinks.forEach(link => {

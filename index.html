@@ -24,7 +24,6 @@
     <title>MLK Tecnologia</title>
 
     <link rel="stylesheet" href="./styles/style.css" class="css">
-    <link rel="stylesheet" href="./styles/output.css">
 
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
     <link rel="icon" type="image/png" href="https://mlktecnologia.com.br/assets/logo.png" sizes="32x32">
@@ -86,124 +85,111 @@
         <main class="relative">
 
             <article id="home" class="scroll-mt-28 space-y-16">
-
-                <!-- <section>
-                    <div id="carousel-home" class="relative w-dvw h-dvh">
-                        <div
-                            class="relative h-dvh overflow-hidden"
-                        >
-                            <div id="carousel-item-1" class="bg-gray-200 dark:bg-gray-800 hidden duration-700 ease-in-out">
-                                <video class="absolute left-1/2 block w-full -translate-x-1/2" 
-                                    muted
-                                    autoplay
-                                    loop
-                                >
-                                    <source src="./assets/camera.mp4" type="video/mp4">
-                                    Seu navegador não suporta vídeos.
-                                </video>
-
-                                <div class="absolute top-3 left-0 w-dvw text-center px-3">
-                                    <h1 class="mb-4 text-3xl text-shadow-sm font-extrabold leading-none tracking-tight text-white md:text-4xl lg:text-5xl">
-                                        <span class="text-[#FF4500] text-4xl md:text-5xl lg:text-6xl">
-                                            Sistemas CFTV
-                                        </span> 
-                                        com qualidade e tecnologia de ponta
-                                    </h1>
-                                </div>
-                            </div>
-
-                            <div id="carousel-item-2" class="bg-gray-200 dark:bg-gray-800 hidden duration-700 ease-in-out">
-                                <video class="absolute left-1/2 block w-full -translate-x-1/2" 
-                                    muted
-                                    autoplay
-                                    loop
-                                >
-                                    <source src="https://videos.pexels.com/video-files/7255101/7255101-uhd_2732_1440_30fps.mp4" type="video/mp4">
-                                    Seu navegador não suporta vídeos.
-                                </video>
-
-                                <div class="absolute top-3 left-0 w-dvw text-center px-3">
-                                    <h1 class="mb-4 text-3xl text-shadow-sm font-extrabold leading-none tracking-tight text-white md:text-4xl lg:text-5xl">
-                                        <span class="text-[#FF4500] text-4xl md:text-5xl lg:text-6xl">
-                                            Sua segurança 24h
-                                        </span> 
-                                        para não se preocupar
-                                    </h1>
-                                    
-                                </div>
-                            </div>
-
-                            <div id="carousel-item-3" class="bg-gray-200 dark:bg-gray-800 hidden duration-700 ease-in-out">
-                                <video class="absolute left-1/2 block w-full -translate-x-1/2" 
-                                    muted
-                                    autoplay
-                                    loop
-                                    >
-                                    <source src="https://videos.pexels.com/video-files/6193787/6193787-uhd_2560_1440_25fps.mp4" type="video/mp4">
-                                    Seu navegador não suporta vídeos.
-                                </video>
-                            
-                                <div class="absolute top-3 left-0 w-dvw text-center px-3">
-                                    <h1 class="mb-4 text-3xl text-shadow-sm font-extrabold leading-none tracking-tight text-white md:text-4xl lg:text-5xl">
-                                        Softwares e sistemas
-                                        <span class="text-[#FF4500] text-4xl md:text-5xl lg:text-6xl">
-                                            modernos de alta qualidade
-                                        </span> 
-                                    </h1>
-                                </div>
-                            </div>
-
-                            <div id="carousel-item-4" class="bg-gray-200 dark:bg-gray-800 hidden duration-700 ease-in-out">
-                                <video class="absolute left-1/2 block w-full -translate-x-1/2" 
-                                    muted
-                                    autoplay
-                                    loop
-                                >
-                                    <source src="https://videos.pexels.com/video-files/3764259/3764259-hd_1280_720_60fps.mp4" type="video/mp4">
-                                    Seu navegador não suporta vídeos.
-                                </video>
-
-                                <div class="absolute top-3 left-0 w-dvw text-center px-3">
-                                    <h1 class="mb-4 text-3xl text-shadow-sm font-extrabold leading-none tracking-tight text-white md:text-4xl lg:text-5xl">
-                                        <span class="text-[#FF4500] text-4xl md:text-5xl lg:text-6xl">
-                                            Monitoramento
-                                        </span> 
-                                        personalizado para sua necessidade
-                                    </h1>
-                                    
-                                </div>
-                            </div>
+            
+                <section>
+                    <div class="carousel-home w-dvw relative">
+                        <div id="carousel-item-1" class="bg-white w-dvw flex items-center justify-center">
+                            <video 
+                                class="w-full" 
+                                muted 
+                                autoplay 
+                                loop
+                            >
+                                <source src="./assets/camera.mp4" type="video/mp4">
+                                Seu navegador não suporta vídeos.
+                            </video>
                         </div>
-                        <button type="button" class="absolute z-40 top-0 start-0 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev id="data-carousel-prev">
-                            <span class="inline-flex items-center justify-center w-14 h-14 bg-green-300 group-hover:bg-green-600 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-                                </svg>
-                                <span class="sr-only">Previous</span>
-                            </span>
-                        </button>
-                        <button type="button" class="absolute z-40 top-0 end-2 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next id="data-carousel-next">
-                            <span class="inline-flex items-center justify-center w-14 h-14 bg-green-300 group-hover:bg-green-600 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-                                </svg>
-                                <span class="sr-only">Next</span>
-                            </span>
-                        </button>
-                    </div>    
 
-                    <section class="bg-[#FF4500] md:py-9">
-                        <div class="flex flex-wrap items-center content-center max-w-screen-xl">
-                            <div class="w-3/5 ml-4 mt-4">
-                                <h6 class="mb-4 text-xl font-bold tracking-tight leading-none md:text-3xl lg:text-4xl text-white">
-                                    Buscando por segurança?
-                                </h6>
-                                <p class="mb-8 font-normal text-gray-100 dark:text-gray-200">
-                                    MLK Tecnologia oferece instalação, manutenção, consultoria e suporte para a segurança da sua empresa.
-                                </p>
+                        <div id="carousel-item-2" class="bg-white w-dvw items-center justify-center hidden">
+                            <video 
+                                class="w-full" 
+                                muted 
+                                autoplay 
+                                loop
+                            >
+                                <source src="https://videos.pexels.com/video-files/6193787/6193787-uhd_2560_1440_25fps.mp4" type="video/mp4">
+                                Seu navegador não suporta vídeos.
+                            </video>
+                        </div>
+
+                        <div id="carousel-item-3" class="bg-white w-dvw items-center justify-center hidden">
+                            <video 
+                            class="w-full" 
+                            muted 
+                            autoplay 
+                            loop
+                            >
+                            <source src="https://videos.pexels.com/video-files/7255101/7255101-uhd_2732_1440_30fps.mp4" type="video/mp4">
+                                Seu navegador não suporta vídeos.
+                            </video>
+                        </div>
+                        
+                        <div id="carousel-item-4" class="bg-white w-dvw items-center justify-center hidden">
+                            <video 
+                                class="w-full" 
+                                muted 
+                                autoplay 
+                                loop
+                            >
+                                <source src="https://videos.pexels.com/video-files/3764259/3764259-hd_1280_720_60fps.mp4" type="video/mp4">
+                                Seu navegador não suporta vídeos.
+                            </video>
+                        </div>
+
+                        <div id="carousel-title" class="absolute top-0 left-0 w-full py-3 px-3 sm:px-8 backdrop-blur-[3px]">
+                            <div id="carousel-title-1">
+                                <h1 class="mb-4 text-3xl text-shadow-sm font-extrabold leading-none tracking-tight text-white md:text-4xl lg:text-5xl">
+                                    <span class="text-[#FF4500] text-4xl md:text-5xl lg:text-6xl">
+                                        Sistemas CFTV
+                                    </span> 
+                                    com qualidade e tecnologia de ponta
+                                </h1>
+                                <a href="#system-cftv" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                                    Saiba mais
+                                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                    </svg>
+                                </a>
                             </div>
-                            <div class="ml-4 my-4">
-                                <a href="#about" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 dark:focus:ring-green-900">
+
+                            <div id="carousel-title-2" class="hidden">
+                                <h1 id="carousel-title-2" class="mb-4 text-3xl text-shadow-sm font-extrabold leading-none tracking-tight text-white md:text-4xl lg:text-5xl">
+                                    Softwares e sistemas
+                                    <span class="text-[#FF4500] text-4xl md:text-5xl lg:text-6xl">
+                                        modernos de alta qualidade
+                                    </span>
+                                </h1>
+                                <a href="#technology" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                                    Saiba mais
+                                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <div id="carousel-title-3" class="hidden">
+                                <h1 id="carousel-title-3" class="mb-4 text-3xl text-shadow-sm font-extrabold leading-none tracking-tight text-white md:text-4xl lg:text-5xl">
+                                    <span class="text-[#FF4500] text-4xl md:text-5xl lg:text-6xl">
+                                        Sua segurança 24h
+                                    </span> 
+                                    para não se preocupar
+                                </h1>
+                                <a href="#suport" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                                    Saiba mais
+                                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <div id="carousel-title-4" class="hidden">
+                                <h1 id="carousel-title-4" class="mb-4 text-3xl text-shadow-sm font-extrabold leading-none tracking-tight text-white md:text-4xl lg:text-5xl">
+                                    <span class="text-[#FF4500] text-4xl md:text-5xl lg:text-6xl">
+                                        Monitoramento
+                                    </span> 
+                                    personalizado para sua necessidade
+                                </h1>
+                                <a href="#personalization" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
                                     Saiba mais
                                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
@@ -211,61 +197,64 @@
                                 </a>
                             </div>
                         </div>
-                    </section>
-                </section> -->
-                
 
+                        <button type="button" class="hidden md:flex absolute z-40 top-0 start-0 items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev id="data-carousel-prev">
+                            <span class="rounded-l-2xl inline-flex items-center justify-center w-14 h-14 bg-green-300 group-hover:bg-green-600 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                                </svg>
+                                <span class="sr-only">Previous</span>
+                            </span>
+                        </button>
+                        <button type="button" class="hidden md:flex absolute z-40 top-0 end-2 items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next id="data-carousel-next">
+                            <span class="rounded-r-2xl inline-flex items-center justify-center w-14 h-14 bg-green-300 group-hover:bg-green-600 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                                </svg>
+                                <span class="sr-only">Next</span>
+                            </span>
+                        </button>
+                    </div>
 
-            <div id="default-carousel" class="relative w-full" data-carousel="slide">
-                <!-- Carousel wrapper -->
-                <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-                    <!-- Item 1 -->
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="./assets/camera.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <div id="actions" class="flex relative md:hidden mb-3">
+                        <button type="button" class="flex items-center justify-center cursor-pointer group focus:outline-none" data-carousel-prev id="data-carousel-prev-mobile">
+                            <span class="h-16 w-[49dvw] inline-flex items-center justify-center bg-green-300 group-hover:bg-green-600 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                                </svg>
+                                <span class="sr-only">Previous</span>
+                            </span>
+                        </button>
+                        <button type="button" class="absolute right-0 flex items-center justify-center cursor-pointer group focus:outline-none" data-carousel-next id="data-carousel-next-mobile">
+                            <span class="h-16 w-[49dvw] inline-flex items-center justify-center bg-green-300 group-hover:bg-green-600 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                                </svg>
+                                <span class="sr-only">Next</span>
+                            </span>
+                        </button>
                     </div>
-                    <!-- Item 2 -->
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="./assets/controle.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                    </div>
-                    <!-- Item 3 -->
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="./assets/controle.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                    </div>
-                    <!-- Item 4 -->
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="./assets/controle.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                    </div>
-                    <!-- Item 5 -->
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="./assets/controle.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                    </div>
-                </div>
-                <!-- Slider indicators -->
-                <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
-                    <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
-                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
-                </div>
-                <!-- Slider controls -->
-                <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-                        </svg>
-                        <span class="sr-only">Previous</span>
-                    </span>
-                </button>
-                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-                        </svg>
-                        <span class="sr-only">Next</span>
-                    </span>
-                </button>
-            </div>
+
+                    <article class="flex flex-wrap items-center content-center bg-[#FF4500] py-4">
+                        <div class="w-3/5 ml-4 mt-4">
+                            <h6 class="mb-4 text-xl font-bold tracking-tight leading-none md:text-3xl lg:text-4xl text-white">
+                                Buscando por segurança?
+                            </h6>
+                            <p class="mb-8 font-normal text-gray-100 dark:text-gray-200">
+                                MLK Tecnologia oferece instalação, manutenção, consultoria e suporte para a segurança da sua empresa.
+                            </p>
+                        </div>
+                        <div class="ml-4 my-4">
+                            <a href="#about" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 dark:focus:ring-green-900">
+                                Saiba mais
+                                <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                </section>
+
 
                 <section class="mt-32 pb-32 px-8 md:px-48">
 
@@ -280,28 +269,28 @@
                     </section>
 
                     <section class="cards-grid">
-                        <div class="w-full overflow-hidden max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 differential-card">
+                        <div id="system-cftv" class="scroll-mt-16 w-full overflow-hidden max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 differential-card">
                             <a class="rounded-2xl">
-                                <img class="rounded-b-2xl" src="./assets/controle.jpg" alt="Personalização" />
+                                <img class="rounded-b-2xl" src="./assets/camera.jpg" alt="Câmera" />
                             </a>
 
                             <div class="px-5 py-5">
                                 <div>
                                     <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                                        Personalização
+                                        Sistema CFTV
                                     </h5>
                                     <p class="font-normal tracking-tight text-gray-900 dark:text-white">
-                                        Soluções feitas sob medida para as necessidades da sua empresa
+                                        CFTV para sistemas tanto analógicos quanto digitais
                                     </p>
                                 </div>
 
                                 <div class="flex items-center mt-2.5 mb-5">
                                     <div class="flex items-center space-x-1 rtl:space-x-reverse">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#EA3323"><path d="m80-520 200-360 200 360H80Zm200 400q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm240 0v-320h320v320H520Zm160-400q-57-48-95.5-81T523-659q-23-25-33-47t-10-47q0-45 31.5-76t78.5-31q27 0 50.5 12.5T680-813q16-22 39.5-34.5T770-860q47 0 78.5 31t31.5 76q0 25-10 47t-33 47q-23 25-61.5 58T680-520Z"/></svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#EA3323"><path d="m80-520 200-360 200 360H80Zm200 400q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm240 0v-320h320v320H520Zm160-400q-57-48-95.5-81T523-659q-23-25-33-47t-10-47q0-45 31.5-76t78.5-31q27 0 50.5 12.5T680-813q16-22 39.5-34.5T770-860q47 0 78.5 31t31.5 76q0 25-10 47t-33 47q-23 25-61.5 58T680-520Z"/></svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#EA3323"><path d="m80-520 200-360 200 360H80Zm200 400q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm240 0v-320h320v320H520Zm160-400q-57-48-95.5-81T523-659q-23-25-33-47t-10-47q0-45 31.5-76t78.5-31q27 0 50.5 12.5T680-813q16-22 39.5-34.5T770-860q47 0 78.5 31t31.5 76q0 25-10 47t-33 47q-23 25-61.5 58T680-520Z"/></svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#EA3323"><path d="m80-520 200-360 200 360H80Zm200 400q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm240 0v-320h320v320H520Zm160-400q-57-48-95.5-81T523-659q-23-25-33-47t-10-47q0-45 31.5-76t78.5-31q27 0 50.5 12.5T680-813q16-22 39.5-34.5T770-860q47 0 78.5 31t31.5 76q0 25-10 47t-33 47q-23 25-61.5 58T680-520Z"/></svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#999999"><path d="m80-520 200-360 200 360H80Zm200 400q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm240 0v-320h320v320H520Zm160-400q-57-48-95.5-81T523-659q-23-25-33-47t-10-47q0-45 31.5-76t78.5-31q27 0 50.5 12.5T680-813q16-22 39.5-34.5T770-860q47 0 78.5 31t31.5 76q0 25-10 47t-33 47q-23 25-61.5 58T680-520Z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#F9DB78"><path d="M240-320h320v-128l160 128v-320L560-512v-128H240v320Zm-80 160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#F9DB78"><path d="M240-320h320v-128l160 128v-320L560-512v-128H240v320Zm-80 160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#F9DB78"><path d="M240-320h320v-128l160 128v-320L560-512v-128H240v320Zm-80 160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#F9DB78"><path d="M240-320h320v-128l160 128v-320L560-512v-128H240v320Zm-80 160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#666666"><path d="M240-320h320v-128l160 128v-320L560-512v-128H240v320Zm-80 160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Z"/></svg>
                                     </div>
                                     <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded-sm dark:bg-blue-200 dark:text-blue-800 ms-3">
                                         5.0
@@ -310,7 +299,8 @@
                             </div>
                         </div>
 
-                        <div class="w-full overflow-hidden max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 differential-card">
+                        
+                        <div id="technology" class="scroll-mt-16 w-full overflow-hidden max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 differential-card">
                             <a class="rounded-2xl">
                                 <img class="rounded-b-2xl" src="./assets/robot.jpg" alt="Tecnologia" />
                             </a>
@@ -340,7 +330,7 @@
                             </div>
                         </div>
 
-                        <div class="w-full overflow-hidden max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 differential-card">
+                        <div id="suport" class="scroll-mt-16 w-full overflow-hidden max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 differential-card">
                             <a class="rounded-2xl">
                                 <img class="rounded-b-2xl" src="./assets/suport.jpg" alt="Suporte" />
                             </a>
@@ -370,28 +360,28 @@
                             </div>
                         </div>
 
-                        <div class="w-full overflow-hidden max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 differential-card">
+                        <div id="personalization" class="scroll-mt-16 w-full overflow-hidden max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 differential-card">
                             <a class="rounded-2xl">
-                                <img class="rounded-b-2xl" src="./assets/camera.jpg" alt="Câmera" />
+                                <img class="rounded-b-2xl" src="./assets/controle.jpg" alt="Personalização" />
                             </a>
 
                             <div class="px-5 py-5">
                                 <div>
                                     <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                                        Sistema CFTV
+                                        Personalização
                                     </h5>
                                     <p class="font-normal tracking-tight text-gray-900 dark:text-white">
-                                        CFTV para sistemas tanto analógicos quanto digitais
+                                        Soluções feitas sob medida para as necessidades da sua empresa
                                     </p>
                                 </div>
 
                                 <div class="flex items-center mt-2.5 mb-5">
                                     <div class="flex items-center space-x-1 rtl:space-x-reverse">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#F9DB78"><path d="M240-320h320v-128l160 128v-320L560-512v-128H240v320Zm-80 160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Z"/></svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#F9DB78"><path d="M240-320h320v-128l160 128v-320L560-512v-128H240v320Zm-80 160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Z"/></svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#F9DB78"><path d="M240-320h320v-128l160 128v-320L560-512v-128H240v320Zm-80 160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Z"/></svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#F9DB78"><path d="M240-320h320v-128l160 128v-320L560-512v-128H240v320Zm-80 160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Z"/></svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#666666"><path d="M240-320h320v-128l160 128v-320L560-512v-128H240v320Zm-80 160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#EA3323"><path d="m80-520 200-360 200 360H80Zm200 400q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm240 0v-320h320v320H520Zm160-400q-57-48-95.5-81T523-659q-23-25-33-47t-10-47q0-45 31.5-76t78.5-31q27 0 50.5 12.5T680-813q16-22 39.5-34.5T770-860q47 0 78.5 31t31.5 76q0 25-10 47t-33 47q-23 25-61.5 58T680-520Z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#EA3323"><path d="m80-520 200-360 200 360H80Zm200 400q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm240 0v-320h320v320H520Zm160-400q-57-48-95.5-81T523-659q-23-25-33-47t-10-47q0-45 31.5-76t78.5-31q27 0 50.5 12.5T680-813q16-22 39.5-34.5T770-860q47 0 78.5 31t31.5 76q0 25-10 47t-33 47q-23 25-61.5 58T680-520Z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#EA3323"><path d="m80-520 200-360 200 360H80Zm200 400q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm240 0v-320h320v320H520Zm160-400q-57-48-95.5-81T523-659q-23-25-33-47t-10-47q0-45 31.5-76t78.5-31q27 0 50.5 12.5T680-813q16-22 39.5-34.5T770-860q47 0 78.5 31t31.5 76q0 25-10 47t-33 47q-23 25-61.5 58T680-520Z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#EA3323"><path d="m80-520 200-360 200 360H80Zm200 400q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm240 0v-320h320v320H520Zm160-400q-57-48-95.5-81T523-659q-23-25-33-47t-10-47q0-45 31.5-76t78.5-31q27 0 50.5 12.5T680-813q16-22 39.5-34.5T770-860q47 0 78.5 31t31.5 76q0 25-10 47t-33 47q-23 25-61.5 58T680-520Z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#999999"><path d="m80-520 200-360 200 360H80Zm200 400q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm240 0v-320h320v320H520Zm160-400q-57-48-95.5-81T523-659q-23-25-33-47t-10-47q0-45 31.5-76t78.5-31q27 0 50.5 12.5T680-813q16-22 39.5-34.5T770-860q47 0 78.5 31t31.5 76q0 25-10 47t-33 47q-23 25-61.5 58T680-520Z"/></svg>
                                     </div>
                                     <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded-sm dark:bg-blue-200 dark:text-blue-800 ms-3">
                                         5.0
@@ -417,9 +407,7 @@
                     </p>
                     <a href="#contact" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-[#FF4500] rounded-lg hover:bg-orange-400 focus:ring-4 focus:ring-orange-300 dark:focus:ring-[#FF4500]">
                         Solicitar orçamento
-                        <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="M441-120v-86q-53-12-91.5-46T293-348l74-30q15 48 44.5 73t77.5 25q41 0 69.5-18.5T587-356q0-35-22-55.5T463-458q-86-27-118-64.5T313-614q0-65 42-101t86-41v-84h80v84q50 8 82.5 36.5T651-650l-74 32q-12-32-34-48t-60-16q-44 0-67 19.5T393-614q0 33 30 52t104 40q69 20 104.5 63.5T667-358q0 71-42 108t-104 46v84h-80Z"/></svg>
                     </a>
                 </section>
                 
@@ -733,7 +721,7 @@
                 <section>
                     <div class="flex items-start gap-2.5 fadein">
                         <img class="w-8 h-8 rounded-full" src="./assets/favicon.png" alt="Jese image">
-                        <div class="flex flex-col w-full max-w-[320px] leading-1.5 p-4 border-gray-200 bg-gray-100 rounded-e-xl rounded-es-xl dark:bg-gray-700">
+                        <div class="relative flex flex-col w-full max-w-[320px] leading-1.5 p-4 border-gray-200 bg-gray-100 rounded-e-xl rounded-es-xl dark:bg-gray-700">
                             <div class="flex items-center space-x-2 rtl:space-x-reverse">
                                 <span class="text-sm font-semibold text-gray-900 dark:text-white">
                                     MLK Atendimentos
@@ -745,7 +733,7 @@
                             <p class="text-sm font-normal py-2.5 text-gray-900 dark:text-white">
                                 Olá! Será um prazer conversarmos. 
                             </p>
-                            <span class="text-sm font-normal text-gray-500 dark:text-gray-400">
+                            <span class="text-sm font-normal text-gray-500 dark:text-gray-400 mt-3 absolute bottom-3 right-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5985E1"><path d="M268-240 42-466l57-56 170 170 56 56-57 56Zm226 0L268-466l56-57 170 170 368-368 56 57-424 424Zm0-226-57-56 198-198 57 56-198 198Z"/></svg>
                             </span>
                         </div>
@@ -753,7 +741,7 @@
 
                     <div class="flex items-start gap-2.5 mt-2 fadein">
                         <img class="w-8 h-8 rounded-full" src="./assets/favicon.png" alt="Jese image">
-                        <div class="flex flex-col w-full max-w-[320px] leading-1.5 p-4 border-gray-200 bg-gray-100 rounded-e-xl rounded-es-xl dark:bg-gray-700">
+                        <div class="relative flex flex-col w-full max-w-[320px] leading-1.5 p-4 border-gray-200 bg-gray-100 rounded-e-xl rounded-es-xl dark:bg-gray-700">
                             <div class="flex items-center space-x-2 rtl:space-x-reverse">
                                 <span class="text-sm font-semibold text-gray-900 dark:text-white">
                                     MLK Atendimentos
@@ -764,18 +752,30 @@
                             </div>
                             <p class="text-sm font-normal py-2.5 text-gray-900 dark:text-white">
                                 <div class="flex flex-wrap gap-1.5 mb-3 items-center content-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#ffffff" class="bi bi-envelope" viewBox="0 0 16 16"><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/></svg>                                    
-                                    <a href="mailto:atendimentos@mlktecnologia.com.br" class="hover:underline text-green-500 dark:text-green-400">
-                                        atendimentos@mlktecnologia.com.br
-                                    </a>
+                                    <button type="button" class="cursor-pointer px-3 py-2 text-xs font-medium text-center inline-flex items-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                        <svg class="w-3 h-3 text-white me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
+                                            <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"/>
+                                            <path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"/>
+                                        </svg>
+                                        <a href="mailto:atendimentos@mlktecnologia.com.br" target="_blank" class="hover:underline">
+                                            Enviar e-mail
+                                        </a>
+                                    </button>
                                 </div>
                                 
                                 <div class="flex flex-wrap gap-1.5 items-center content-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ffffff" class="bi bi-whatsapp" viewBox="0 0 16 16"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg>
-                                    <a href="https://wa.me/5531992502904" class="hover:underline text-green-500 dark:text-green-400">
-                                        (31) 99250-2904
-                                    </a>
+                                    
+                                    <button type="button" class="cursor-pointer px-3 py-2 text-xs font-medium text-center inline-flex items-center text-white bg-green-700 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
+                                        <svg class="w-3 h-3 text-white me-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg>
+                                        <a href="https://wa.me/5531992502904" target="_blank" class="hover:underline">
+                                            (31) 99250-2904
+                                        </a>
+                                    </button>
                                 </div>
+
+                                <span class="text-sm font-normal text-gray-500 dark:text-gray-400 mt-3 absolute bottom-3 right-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5985E1"><path d="M268-240 42-466l57-56 170 170 56 56-57 56Zm226 0L268-466l56-57 170 170 368-368 56 57-424 424Zm0-226-57-56 198-198 57 56-198 198Z"/></svg>
+                                </span>
                             </p>
                         </div>
                     </div>
@@ -794,7 +794,7 @@
                         <a href="#about" class="hover:underline me-4 md:me-6">Nos conheça</a>
                     </li>
                     <li>
-                        <a href="mailto:atendimentos@mlktecnologia.com.br" class="hover:underline">Contato</a>
+                        <a href="mailto:atendimentos@mlktecnologia.com.br" class="hover:underline">atendimentos@mlktecnologia.com.br</a>
                     </li>
                 </ul>
             </div>

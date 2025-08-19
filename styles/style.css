@@ -1,5 +1,7 @@
-@import url('./differentials.css');
-@import url('./scroll.css');
+@import url('./cards.css');
+@import url('./scroll-brands.css');
+@import url('./carousel.css');
+@import url('./output.css');
 
 * {
   scroll-behavior: smooth;
