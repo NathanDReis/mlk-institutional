@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="./styles/style.css" class="css">
 
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
-    <link rel="icon" type="image/png" href="https://mlktecnologia.com.br/assets/logo.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://mlktecnologia.com.br/assets/favicon.png" sizes="32x32">
 
     <script type="application/ld+json">
         {
@@ -39,7 +39,7 @@
     </script>
 </head>
 <body>
-    <div class="w-dvw bg-gray-200 dark:bg-gray-800">
+    <div class="w-dvw bg-gray-200 dark:from-gray-800 dark:to-green-950 dark:bg-linear-to-b">
         <nav class="sticky top-0 left-0 z-50 backdrop-blur-xl bg-gray-100 border-gray-200 dark:bg-gray-900">
             <div class="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto p-4">
                 <a href="#home" class="flex items-center space-x-3 rtl:space-x-reverse">
@@ -97,6 +97,44 @@
             <article id="home" class="scroll-mt-28 space-y-16">
             
                 <section>
+                    <div id="carousel-title" class="block md:hidden p-3 text-center">
+                        <div class="carousel-title-1">
+                            <h1 class="mb-3 text-xl text-shadow-sm font-extrabold leading-none tracking-tight text-white">
+                                <span class="text-[#FF4500] text-2xl">
+                                    Sistemas CFTV
+                                </span> 
+                                com qualidade e tecnologia de ponta
+                            </h1>
+                        </div>
+
+                        <div class="carousel-title-2 hidden">
+                            <h1 class="mb-3 text-xl text-shadow-sm font-extrabold leading-none tracking-tight text-white">
+                                Softwares e sistemas
+                                <span class="text-[#FF4500] text-2xl">
+                                    modernos de alta qualidade
+                                </span>
+                            </h1>
+                        </div>
+
+                        <div class="carousel-title-3 hidden">
+                            <h1 class="mb-3 text-xl text-shadow-sm font-extrabold leading-none tracking-tight text-white">
+                                <span class="text-[#FF4500] text-2xl">
+                                    Sua segurança 24h
+                                </span> 
+                                para não se preocupar
+                            </h1>
+                        </div>
+
+                        <div class="carousel-title-4 hidden">
+                            <h1 class="mb-3 text-xl text-shadow-sm font-extrabold leading-none tracking-tight text-white">
+                                <span class="text-[#FF4500] text-2xl">
+                                    Monitoramento
+                                </span> 
+                                personalizado para sua necessidade
+                            </h1>
+                        </div>
+                    </div>
+
                     <div class="carousel-home w-dvw relative">
                         <div id="carousel-item-1" class="bg-white w-dvw flex items-center justify-center">
                             <video 
@@ -146,8 +184,8 @@
                             </video>
                         </div>
 
-                        <div id="carousel-title" class="absolute top-0 left-0 w-full py-7 px-3 md:px-20 backdrop-blur-[3px]">
-                            <div id="carousel-title-1">
+                        <div id="carousel-title" class="hidden md:block absolute top-0 left-0 w-full py-7 px-3 md:px-20 backdrop-blur-[3px]">
+                            <div class="carousel-title-1">
                                 <h1 class="mb-4 text-3xl text-shadow-sm font-extrabold leading-none tracking-tight text-white md:text-4xl lg:text-5xl">
                                     <span class="text-[#FF4500] text-4xl md:text-5xl lg:text-6xl">
                                         Sistemas CFTV
@@ -162,8 +200,8 @@
                                 </a>
                             </div>
 
-                            <div id="carousel-title-2" class="hidden">
-                                <h1 id="carousel-title-2" class="mb-4 text-3xl text-shadow-sm font-extrabold leading-none tracking-tight text-white md:text-4xl lg:text-5xl">
+                            <div class="carousel-title-2 hidden">
+                                <h1 class="mb-4 text-3xl text-shadow-sm font-extrabold leading-none tracking-tight text-white md:text-4xl lg:text-5xl">
                                     Softwares e sistemas
                                     <span class="text-[#FF4500] text-4xl md:text-5xl lg:text-6xl">
                                         modernos de alta qualidade
@@ -177,8 +215,8 @@
                                 </a>
                             </div>
 
-                            <div id="carousel-title-3" class="hidden">
-                                <h1 id="carousel-title-3" class="mb-4 text-3xl text-shadow-sm font-extrabold leading-none tracking-tight text-white md:text-4xl lg:text-5xl">
+                            <div class="carousel-title-3 hidden">
+                                <h1 class="mb-4 text-3xl text-shadow-sm font-extrabold leading-none tracking-tight text-white md:text-4xl lg:text-5xl">
                                     <span class="text-[#FF4500] text-4xl md:text-5xl lg:text-6xl">
                                         Sua segurança 24h
                                     </span> 
@@ -192,8 +230,8 @@
                                 </a>
                             </div>
 
-                            <div id="carousel-title-4" class="hidden">
-                                <h1 id="carousel-title-4" class="mb-4 text-3xl text-shadow-sm font-extrabold leading-none tracking-tight text-white md:text-4xl lg:text-5xl">
+                            <div class="carousel-title-4 hidden">
+                                <h1 class="mb-4 text-3xl text-shadow-sm font-extrabold leading-none tracking-tight text-white md:text-4xl lg:text-5xl">
                                     <span class="text-[#FF4500] text-4xl md:text-5xl lg:text-6xl">
                                         Monitoramento
                                     </span> 
@@ -208,17 +246,17 @@
                             </div>
                         </div>
 
-                        <button type="button" class="hidden md:flex absolute z-40 top-0 start-0 items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev id="data-carousel-prev">
-                            <span class="rounded-l-2xl inline-flex items-center justify-center w-14 h-14 bg-green-300 group-hover:bg-green-600 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <button type="button" class="flex absolute z-40 top-0 start-0 items-center justify-center h-full px-1 md:px-4 cursor-pointer group focus:outline-none" data-carousel-prev id="data-carousel-prev">
+                            <span class="rounded-l-2xl inline-flex items-center justify-center w-10 h-10 md:w-14 md:h-14 bg-green-300 group-hover:bg-green-600 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                <svg class="w-3 h-3 md:w-4 md:h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
                                 </svg>
                                 <span class="sr-only">Previous</span>
                             </span>
                         </button>
-                        <button type="button" class="hidden md:flex absolute z-40 top-0 end-2 items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next id="data-carousel-next">
-                            <span class="rounded-r-2xl inline-flex items-center justify-center w-14 h-14 bg-green-300 group-hover:bg-green-600 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <button type="button" class="flex absolute z-40 top-0 end-2 items-center justify-center h-full px-1 md:px-4 cursor-pointer group focus:outline-none" data-carousel-next id="data-carousel-next">
+                            <span class="rounded-r-2xl inline-flex items-center justify-center w-10 h-10 md:w-14 md:h-14 bg-green-300 group-hover:bg-green-600 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                <svg class="w-3 h-3 md:w-4 md:h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
                                 </svg>
                                 <span class="sr-only">Next</span>
@@ -226,24 +264,12 @@
                         </button>
                     </div>
 
-                    <div id="actions" class="flex relative md:hidden mb-3">
-                        <button type="button" class="flex items-center justify-center cursor-pointer group focus:outline-none" data-carousel-prev id="data-carousel-prev-mobile">
-                            <span class="h-16 w-[49dvw] inline-flex items-center justify-center bg-green-300 group-hover:bg-green-600 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-                                </svg>
-                                <span class="sr-only">Previous</span>
-                            </span>
-                        </button>
-                        <button type="button" class="absolute right-0 flex items-center justify-center cursor-pointer group focus:outline-none" data-carousel-next id="data-carousel-next-mobile">
-                            <span class="h-16 w-[49dvw] inline-flex items-center justify-center bg-green-300 group-hover:bg-green-600 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-                                </svg>
-                                <span class="sr-only">Next</span>
-                            </span>
-                        </button>
-                    </div>
+                    <a href="#" id="link_geral_learn_more" class="inline-flex md:hidden w-dvw  justify-center items-center py-3 px-5 text-base font-medium text-center text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                        Saiba mais
+                        <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
 
                     <article class="flex flex-wrap items-center content-center bg-[#FF4500] py-4">
                         <div class="w-3/5 ml-4 mt-4">
@@ -279,7 +305,7 @@
                     </section>
 
                     <section class="cards-grid">
-                        <div id="system-cftv" class="scroll-mt-16 w-full overflow-hidden max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 differential-card">
+                        <div id="system-cftv" class="scroll-mt-28 space-y-16 w-full overflow-hidden max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 differential-card">
                             <a class="rounded-2xl">
                                 <img class="rounded-b-2xl" src="./assets/camera.jpg" alt="Câmera" />
                             </a>
@@ -310,7 +336,7 @@
                         </div>
 
                         
-                        <div id="technology" class="scroll-mt-16 w-full overflow-hidden max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 differential-card">
+                        <div id="technology" class="scroll-mt-28 space-y-16 w-full overflow-hidden max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 differential-card">
                             <a class="rounded-2xl">
                                 <img class="rounded-b-2xl" src="./assets/robot.jpg" alt="Tecnologia" />
                             </a>
@@ -340,7 +366,7 @@
                             </div>
                         </div>
 
-                        <div id="suport" class="scroll-mt-16 w-full overflow-hidden max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 differential-card">
+                        <div id="suport" class="scroll-mt-28 space-y-16 w-full overflow-hidden max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 differential-card">
                             <a class="rounded-2xl">
                                 <img class="rounded-b-2xl" src="./assets/suport.jpg" alt="Suporte" />
                             </a>
@@ -370,7 +396,7 @@
                             </div>
                         </div>
 
-                        <div id="personalization" class="scroll-mt-16 w-full overflow-hidden max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 differential-card">
+                        <div id="personalization" class="scroll-mt-28 space-y-16 w-full overflow-hidden max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 differential-card">
                             <a class="rounded-2xl">
                                 <img class="rounded-b-2xl" src="./assets/controle.jpg" alt="Personalização" />
                             </a>
@@ -762,6 +788,15 @@
                             </div>
                             <p class="text-sm font-normal py-2.5 text-gray-900 dark:text-white">
                                 <div class="flex flex-wrap gap-1.5 mb-3 items-center content-center">
+                                    <button type="button" class="cursor-pointer px-3 py-2 text-xs font-medium text-center inline-flex items-center text-white bg-green-700 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
+                                        <svg class="w-3 h-3 text-white me-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg>
+                                        <a href="https://wa.me/5531992502904" target="_blank" class="hover:underline">
+                                            (31) 99250-2904
+                                        </a>
+                                    </button>
+                                </div>
+
+                                <div class="flex flex-wrap gap-1.5 items-center content-center">
                                     <button type="button" class="cursor-pointer px-3 py-2 text-xs font-medium text-center inline-flex items-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                         <svg class="w-3 h-3 text-white me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
                                             <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"/>
@@ -769,16 +804,6 @@
                                         </svg>
                                         <a href="mailto:atendimentos@mlktecnologia.com.br" target="_blank" class="hover:underline">
                                             Enviar e-mail
-                                        </a>
-                                    </button>
-                                </div>
-                                
-                                <div class="flex flex-wrap gap-1.5 items-center content-center">
-                                    
-                                    <button type="button" class="cursor-pointer px-3 py-2 text-xs font-medium text-center inline-flex items-center text-white bg-green-700 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
-                                        <svg class="w-3 h-3 text-white me-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg>
-                                        <a href="https://wa.me/5531992502904" target="_blank" class="hover:underline">
-                                            (31) 99250-2904
                                         </a>
                                     </button>
                                 </div>
