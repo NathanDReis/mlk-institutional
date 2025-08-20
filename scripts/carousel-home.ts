@@ -18,12 +18,18 @@ const items = [
         position: 2,
         el: document.getElementById('carousel-item-3')!,
         titles: document.querySelectorAll('.carousel-title-3')!,
-        link: '#suport',
+        link: '#access-control',
     },
     {
         position: 3,
         el: document.getElementById('carousel-item-4')!,
         titles: document.querySelectorAll('.carousel-title-4')!,
+        link: '#suport',
+    },
+    {
+        position: 4,
+        el: document.getElementById('carousel-item-5')!,
+        titles: document.querySelectorAll('.carousel-title-5')!,
         link: '#personalization',
     },
 ];
