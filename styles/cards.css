@@ -10,6 +10,10 @@
   transition: all 0.3s ease;
 }
 
+.differential-card p {
+  line-height: 1.5;
+}
+
 .differential-card::before {
   content: "";
   position: absolute;
