@@ -3,7 +3,7 @@
 	100% { transform: translateX(calc(-150px * 12))}
 }
 
-.slider {	
+.slider {		
 	&::before,
 	&::after {
 		content: "";
