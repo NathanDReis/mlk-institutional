@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  RewriteBase /chamados/
+  RewriteBase /suporte/
 
   # Se for arquivo ou pasta existente, serve normalmente
   RewriteCond %{REQUEST_FILENAME} -f [OR]
